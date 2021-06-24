@@ -16,7 +16,7 @@
 
 
 
-  <body>
+  <body style="background-color: rgb(223, 209, 209);" >
     <!-- Country -->
                   <!-- Country -->
                                                                              <!-- Country -->
@@ -26,42 +26,43 @@
                                                                     <!-- Country -->
     <div class="bg-info rounded text-white" style="max-width: 100%;"><h1 style="text-align: center;">Country Statistics<h1></div>
     <div class="container"> 
+      <small class="text-muted" >As on {{india.date}}</small>
       <div class="col">       
         <div class="row">
             <div class="card m-1 bg-warning text-white">
                 <div class="card-body">
                   <h4 class="card-title">New Confirmed</h4>
-                  <p class="card-text">{{india.NewConfirmed}}</p>
+                  <p class="card-text">{{india.dailyconfirmed}}</p>
                 </div>
               </div>
               <div class="card m-1 bg-warning text-white">
                 <div class="card-body">
                   <h4 class="card-title">Total Confirmed</h4>
-                  <p class="card-text">{{india.TotalConfirmed}}</p>
+                  <p class="card-text">{{india.totalconfirmed}}</p>
                 </div>
               </div>  
               <div class="card m-1 bg-danger text-white">
                 <div class="card-body">
                   <h4 class="card-title">New Deaths</h4>
-                  <p class="card-text">{{india.NewDeaths}}</p>
+                  <p class="card-text">{{india.dailydeceased}}</p>
                 </div>
               </div>
               <div class="card m-1 bg-danger text-white">
                 <div class="card-body">
                   <h4 class="card-title">Total Deaths</h4>
-                  <p class="card-text">{{india.TotalDeaths}}</p>
+                  <p class="card-text">{{india.totaldeceased}}</p>
                 </div>      
               </div>    
               <div class="card m-1 bg-success text-white">
                 <div class="card-body">
                   <h4 class="card-title">New Recovered</h4>
-                  <p class="card-text">{{india.NewRecovered}}</p>
+                  <p class="card-text">{{india.dailyrecovered}}</p>
                 </div>
               </div>
               <div class="card m-1 bg-success text-white">
                 <div class="card-body">
                   <h4 class="card-title">Total Recovered</h4>
-                  <p class="card-text">{{india.TotalRecovered}}</p>
+                  <p class="card-text">{{india.totalrecovered}}</p>
                 </div>
               </div>
             </div>
