@@ -1,0 +1,483 @@
+{
+    "Ahmednagar": {
+        "notes": "",
+        "active": 3849,
+        "confirmed": 265323,
+        "migratedother": 1,
+        "deceased": 5333,
+        "recovered": 256140,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Akola": {
+        "notes": "",
+        "active": 605,
+        "confirmed": 58705,
+        "migratedother": 4,
+        "deceased": 1314,
+        "recovered": 56782,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Amravati": {
+        "notes": "",
+        "active": 655,
+        "confirmed": 93785,
+        "migratedother": 2,
+        "deceased": 1515,
+        "recovered": 91613,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Aurangabad": {
+        "notes": "",
+        "active": 1905,
+        "confirmed": 150572,
+        "migratedother": 14,
+        "deceased": 3409,
+        "recovered": 145244,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Beed": {
+        "notes": "",
+        "active": 2846,
+        "confirmed": 92078,
+        "migratedother": 7,
+        "deceased": 2471,
+        "recovered": 86754,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Bhandara": {
+        "notes": "",
+        "active": 720,
+        "confirmed": 60026,
+        "migratedother": 10,
+        "deceased": 1112,
+        "recovered": 58184,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Buldhana": {
+        "notes": "",
+        "active": 357,
+        "confirmed": 83369,
+        "migratedother": 6,
+        "deceased": 678,
+        "recovered": 82328,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Chandrapur": {
+        "notes": "",
+        "active": 630,
+        "confirmed": 87829,
+        "migratedother": 2,
+        "deceased": 1551,
+        "recovered": 85646,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Dhule": {
+        "notes": "",
+        "active": 694,
+        "confirmed": 45643,
+        "migratedother": 12,
+        "deceased": 635,
+        "recovered": 44302,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Gadchiroli": {
+        "notes": "",
+        "active": 297,
+        "confirmed": 29321,
+        "migratedother": 28,
+        "deceased": 642,
+        "recovered": 28354,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Gondia": {
+        "notes": "",
+        "active": 192,
+        "confirmed": 40396,
+        "migratedother": 7,
+        "deceased": 557,
+        "recovered": 39640,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Hingoli": {
+        "notes": "",
+        "active": 675,
+        "confirmed": 18235,
+        "migratedother": 1,
+        "deceased": 444,
+        "recovered": 17115,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Jalgaon": {
+        "notes": "",
+        "active": 1023,
+        "confirmed": 139033,
+        "migratedother": 33,
+        "deceased": 2613,
+        "recovered": 135364,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Jalna": {
+        "notes": "",
+        "active": 834,
+        "confirmed": 59486,
+        "migratedother": 1,
+        "deceased": 1143,
+        "recovered": 57508,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Kolhapur": {
+        "notes": "",
+        "active": 9142,
+        "confirmed": 144785,
+        "migratedother": 3,
+        "deceased": 4449,
+        "recovered": 131191,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Latur": {
+        "notes": "",
+        "active": 667,
+        "confirmed": 89621,
+        "migratedother": 6,
+        "deceased": 2148,
+        "recovered": 86800,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Mumbai": {
+        "notes": "[Sep 9]After reconciling COVID-19 cases in Mumbai, owing to the removal of duplicates and change of addresses as per the original residence, 239 cases have been removed from the progressive figures.",
+        "active": 18711,
+        "confirmed": 721963,
+        "migratedother": 2269,
+        "deceased": 15338,
+        "recovered": 685645,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Mumbai Suburban": {
+        "notes": "",
+        "active": 0,
+        "confirmed": 0,
+        "migratedother": 0,
+        "deceased": 0,
+        "recovered": 0,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Nagpur": {
+        "notes": "District administration provides number of persons tested instead of the number of samples tested.",
+        "active": 3821,
+        "confirmed": 492270,
+        "migratedother": 71,
+        "deceased": 8428,
+        "recovered": 479950,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Nanded": {
+        "notes": "Number of active cases differs in the state bulletin and district bulletin. We follow the state bulletin.",
+        "active": 1029,
+        "confirmed": 90334,
+        "migratedother": 7,
+        "deceased": 2656,
+        "recovered": 86642,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Nandurbar": {
+        "notes": "",
+        "active": 386,
+        "confirmed": 39009,
+        "migratedother": 3,
+        "deceased": 946,
+        "recovered": 37674,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Nashik": {
+        "notes": "Number of active cases differs in the state bulletin and district bulletin. We follow the state bulletin.",
+        "active": 2796,
+        "confirmed": 396730,
+        "migratedother": 1,
+        "deceased": 7492,
+        "recovered": 386441,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Osmanabad": {
+        "notes": "",
+        "active": 960,
+        "confirmed": 61417,
+        "migratedother": 86,
+        "deceased": 1593,
+        "recovered": 58778,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Other State": {
+        "notes": "",
+        "active": 26,
+        "confirmed": 146,
+        "migratedother": 2,
+        "deceased": 118,
+        "recovered": 0,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Palghar": {
+        "notes": "",
+        "active": 1598,
+        "confirmed": 123635,
+        "migratedother": 13,
+        "deceased": 2595,
+        "recovered": 119429,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Parbhani": {
+        "notes": "",
+        "active": 541,
+        "confirmed": 51515,
+        "migratedother": 14,
+        "deceased": 1142,
+        "recovered": 49818,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Pune": {
+        "notes": "Number of active cases differs in the state bulletin and district bulletin. We follow the state bulletin.",
+        "active": 17378,
+        "confirmed": 1047085,
+        "migratedother": 195,
+        "deceased": 16379,
+        "recovered": 1013133,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Raigad": {
+        "notes": "Number of active cases differs in the state bulletin and district bulletin. We follow the state bulletin.",
+        "active": 4571,
+        "confirmed": 163203,
+        "migratedother": 2,
+        "deceased": 3418,
+        "recovered": 155212,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Ratnagiri": {
+        "notes": "",
+        "active": 5615,
+        "confirmed": 58407,
+        "migratedother": 2,
+        "deceased": 1642,
+        "recovered": 51148,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Sangli": {
+        "notes": "",
+        "active": 9543,
+        "confirmed": 147414,
+        "migratedother": 4,
+        "deceased": 3884,
+        "recovered": 133983,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Satara": {
+        "notes": "",
+        "active": 7061,
+        "confirmed": 187414,
+        "migratedother": 25,
+        "deceased": 4484,
+        "recovered": 175844,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Sindhudurg": {
+        "notes": "",
+        "active": 5504,
+        "confirmed": 38789,
+        "migratedother": 16,
+        "deceased": 946,
+        "recovered": 32323,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Solapur": {
+        "notes": "",
+        "active": 3127,
+        "confirmed": 171680,
+        "migratedother": 85,
+        "deceased": 4533,
+        "recovered": 163935,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Thane": {
+        "notes": "",
+        "active": 13059,
+        "confirmed": 572837,
+        "migratedother": 31,
+        "deceased": 10152,
+        "recovered": 549595,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Wardha": {
+        "notes": "",
+        "active": 580,
+        "confirmed": 58397,
+        "migratedother": 165,
+        "deceased": 1185,
+        "recovered": 56467,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Washim": {
+        "notes": "",
+        "active": 359,
+        "confirmed": 41277,
+        "migratedother": 3,
+        "deceased": 627,
+        "recovered": 40288,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    },
+    "Yavatmal": {
+        "notes": "",
+        "active": 103,
+        "confirmed": 75858,
+        "migratedother": 4,
+        "deceased": 1731,
+        "recovered": 74020,
+        "delta": {
+            "confirmed": 0,
+            "deceased": 0,
+            "recovered": 0
+        }
+    }
+}

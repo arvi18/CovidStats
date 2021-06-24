@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"crossorigin="anonymous"/>
+
+    <title>Home</title>
+  </head>
+
+
+
+  <body>
+    <!-- Country -->
+                  <!-- Country -->
+                                                                             <!-- Country -->
+                                              <!-- Country -->
+                                                                                              <!-- Country -->
+                                <!-- Country -->
+                                                                    <!-- Country -->
+    <div class="bg-info rounded text-white" style="max-width: 100%;"><h1 style="text-align: center;">Country Statistics<h1></div>
+    <div class="container"> 
+      <div class="col">       
+        <div class="row">
+            <div class="card m-1 bg-warning text-white">
+                <div class="card-body">
+                  <h4 class="card-title">New Confirmed</h4>
+                  <p class="card-text">{{india.NewConfirmed}}</p>
+                </div>
+              </div>
+              <div class="card m-1 bg-warning text-white">
+                <div class="card-body">
+                  <h4 class="card-title">Total Confirmed</h4>
+                  <p class="card-text">{{india.TotalConfirmed}}</p>
+                </div>
+              </div>  
+              <div class="card m-1 bg-danger text-white">
+                <div class="card-body">
+                  <h4 class="card-title">New Deaths</h4>
+                  <p class="card-text">{{india.NewDeaths}}</p>
+                </div>
+              </div>
+              <div class="card m-1 bg-danger text-white">
+                <div class="card-body">
+                  <h4 class="card-title">Total Deaths</h4>
+                  <p class="card-text">{{india.TotalDeaths}}</p>
+                </div>      
+              </div>    
+              <div class="card m-1 bg-success text-white">
+                <div class="card-body">
+                  <h4 class="card-title">New Recovered</h4>
+                  <p class="card-text">{{india.NewRecovered}}</p>
+                </div>
+              </div>
+              <div class="card m-1 bg-success text-white">
+                <div class="card-body">
+                  <h4 class="card-title">Total Recovered</h4>
+                  <p class="card-text">{{india.TotalRecovered}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- State -->
+                                          <!-- State -->
+                        <!-- State -->
+                                                        <!-- State -->
+            <!-- State -->
+                                      <!-- State -->
+
+    <div class="rounded bg-primary text-white" style="max-width: 100%;"><h1 style="text-align: center;">State Statistics<h1></div>
+      <div class="container"> 
+        <small class="text-muted" >As on {{mh.lastupdatedtime}}</small>
+        <div class="col">       
+          <div class="row">
+              <div class="card m-1 bg-warning text-white">
+                  <div class="card-body">
+                    <h4 class="card-title">New Confirmed</h4>
+                    <p class="card-text">{{mh.deltaconfirmed}}</p>
+                  </div>
+                </div>
+                <div class="card m-1 bg-warning text-white">
+                  <div class="card-body">
+                    <h4 class="card-title">Total Active</h4>
+                    <p class="card-text">{{mh.active}}</p>
+                  </div>
+                </div>  
+                <div class="card m-1 bg-danger text-white">
+                  <div class="card-body">
+                    <h4 class="card-title">New Deaths</h4>
+                    <p class="card-text">{{mh.deltadeaths}}</p>
+                  </div>
+                </div>
+                <div class="card m-1 bg-danger text-white">
+                  <div class="card-body">
+                    <h4 class="card-title">Total Deaths</h4>
+                    <p class="card-text">{{mh.deaths}}</p>
+                  </div>      
+                </div>    
+                <div class="card m-1 bg-success text-white">
+                  <div class="card-body">
+                    <h4 class="card-title">New Recovered</h4>
+                    <p class="card-text">{{mh.deltarecovered}}</p>
+                  </div>
+                </div>
+                <div class="card m-1 bg-success text-white">
+                  <div class="card-body">
+                    <h4 class="card-title">Total Recovered</h4>
+                    <p class="card-text">{{mh.recovered}}</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    
+
+    <div class="container"> 
+      <div class="col">
+        <div class="row">
+          <div class="card m-1 bg-primary text-white">
+            <div class="card-body">
+              <h4 class="card-title h2 bg-dark border-white rounded" style="text-align: center; border-width: 2px;">Pune</h4>
+              <p>Active: {{pune.active}}</p>
+              <p>confirmed: {{pune.confirmed}}</p>
+              <p>deceased: {{pune.deceased}}</p>
+              <p>recovered: {{pune.recovered}}</p>         
+            </div>
+          </div>
+
+          <div class="card m-1 bg-primary text-white">
+            <div class="card-body">
+              <h4 class="card-title h2 bg-dark border-white rounded" style="text-align: center; border-width: 2px;">Mumbai</h4>
+              <p>Active: {{Mumbai.active}}</p>
+              <p>confirmed: {{Mumbai.confirmed}}</p>
+              <p>deceased: {{Mumbai.deceased}}</p>
+              <p>recovered: {{Mumbai.recovered}}</p>         
+            </div>
+          </div>
+
+          <div class="card m-1 bg-primary text-white">
+            <div class="card-body">
+              <h4 class="card-title h2 bg-dark border-white rounded" style="text-align: center; border-width: 2px;">Nashik</h4>
+              <p>Active: {{Nashik.active}}</p>
+              <p>confirmed: {{Nashik.confirmed}}</p>
+              <p>deceased: {{Nashik.deceased}}</p>
+              <p>recovered: {{Nashik.recovered}}</p>         
+            </div>
+          </div>
+
+          <div class="card m-1 bg-primary text-white">
+            <div class="card-body">
+              <h4 class="card-title h2 bg-dark border-white rounded" style="text-align: center; border-width: 2px;">Thane</h4>
+              <p>Active: {{Thane.active}}</p>
+              <p>confirmed: {{Thane.confirmed}}</p>
+              <p>deceased: {{Thane.deceased}}</p>
+              <p>recovered: {{Thane.recovered}}</p>         
+            </div>
+          </div>
+
+          <div class="card m-1 bg-primary text-white">
+            <div class="card-body">
+              <h4 class="card-title h2 bg-dark border-white rounded" style="text-align: center; border-width: 2px;">Nagpur</h4>
+              <p>Active: {{Nagpur.active}}</p>
+              <p>confirmed: {{Nagpur.confirmed}}</p>
+              <p>deceased: {{Nagpur.deceased}}</p>
+              <p>recovered: {{Nagpur.recovered}}</p>         
+            </div>
+          </div>          
+
+        </div>
+      </div>
+    </div>
+
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous">
+  </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
