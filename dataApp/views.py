@@ -22,9 +22,4 @@ def index(request):
     stateSummary = result.json()['statewise']
     mh = [item for item in stateSummary if item["state"] == "Maharashtra"][0]
 
-    result = requests.get('https://api.covid19india.org/csv/latest/state_wise_daily.csv')
-    stateSummary = result
-
-    print(stateSummary)
-
     return render(request, 'dataApp/index.html', {'maha': maha, "india": india, 'mh': mh, 'pune': pune, 'Thane': Thane, 'Mumbai': Mumbai, 'Nashik': Nashik, 'Nagpur': Nagpur})
